@@ -1,0 +1,6 @@
+interface:
+  display_name: "Session Handoff"
+  short_description: "Save verified state for the next session"
+  default_prompt: "Use $session-handoff to save a concise project handoff for my next Codex session."
+policy:
+  allow_implicit_invocation: false

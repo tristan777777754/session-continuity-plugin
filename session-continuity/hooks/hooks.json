@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${PLUGIN_ROOT}/hooks/session_start.py",
+            "statusMessage": "Loading project handoff",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

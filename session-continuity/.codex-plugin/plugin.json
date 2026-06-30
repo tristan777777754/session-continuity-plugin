@@ -1,0 +1,31 @@
+{
+  "name": "session-continuity",
+  "version": "0.1.0+codex.20260629114803",
+  "description": "Carry compact, verified project state across Codex sessions.",
+  "author": {
+    "name": "Tristan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "context",
+    "handoff",
+    "sessions",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Session Continuity",
+    "shortDescription": "Carry verified project state between sessions",
+    "longDescription": "Save a concise project handoff explicitly and load it automatically when a later Codex session starts in the same project.",
+    "developerName": "Tristan",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $session-handoff to save the current project state."
+    ]
+  }
+}
